@@ -83,6 +83,7 @@ const Fotter = () => {
             <h1 className="text-stone-50 poly text-center">
                 © IASO - Instituto de Apoio Social do Ourondo
             </h1>
+
         </footer>
     );
 
