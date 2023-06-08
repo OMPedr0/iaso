@@ -23,24 +23,18 @@ const NavBar = () => {
         router.push("/contact");
     }
 
-
-
-
-
-
-
     return (
         <div className="bg-neutral-800 p-2 flex flex-col items-center md:flex-row md:justify-between">
             <div className="flex items-center">
                 <a href="/">
-                <Image
-                    src="/logo.svg"
-                    alt="Logo"
-                    className="ml-2"
-                    width={100}
-                    height={24}
-                    priority
-                />
+                    <Image
+                        src="/logo.svg"
+                        alt="Logo"
+                        className="ml-2"
+                        width={100}
+                        height={24}
+                        priority
+                    />
                 </a>
 
 
