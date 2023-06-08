@@ -1,10 +1,10 @@
-import './globals.css'
+import '../globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'IASO - Instituto de Apoio Social do Ourondo',
+  title: 'Blog',
   description: 'Instituição De Apoio Social do Ourondo',
 }
 
@@ -15,9 +15,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-      <link rel="icon" type="image/svg" href="/logo.svg" />
-      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
