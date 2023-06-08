@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='bg-stone-50'>
       <head>
       <link rel="icon" type="image/svg" href="/logo.svg" />
       </head>
