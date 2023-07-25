@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Iaso App / WebSite
 
-## Getting Started
+Este repositório contém o projeto IASO, uma aplicação desenvolvida para atender às necessidades de uma instituição de acolhimento. 
 
-First, run the development server:
+A instituição de acolhimento, para a qual esse projeto foi desenvolvido, é uma organização dedicada a proporcionar um ambiente seguro e acolhedor para pessoas em situações vulneráveis, como crianças e adolescentes em situação de risco ou abandono. O objetivo do projeto IASO é otimizar a administração e garantir o bem-estar dos acolhidos, bem como facilitar a colaboração entre os funcionários e voluntários.
 
+## Funcionalidades do projeto:
+
+## Registro e Perfil dos Acolhidos: 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Permite o cadastro dos acolhidos, com informações como nome, idade, 
+histórico e necessidades especiais, facilitando o acompanhamento individualizado.
+```
+## Agenda e Atividades: 
+```bash
+Possibilita o agendamento de atividades, eventos e compromissos da instituição, 
+como consultas médicas, atividades educacionais, recreativas e encontros com assistentes sociais.
+```
+## Comunicação Interna:
+```bash 
+Disponibiliza uma plataforma de comunicação interna para que a equipe da instituição possa se 
+comunicar eficientemente sobre o cuidado dos acolhidos, compartilhar informações e tomar decisões importantes.
+```
+## Gerenciamento de Recursos: 
+```bash
+Permite o controle dos recursos da instituição, como estoque de alimentos, material escolar, 
+roupas e medicamentos, garantindo que as necessidades básicas dos acolhidos sejam atendidas.
+```
+## Relatórios e Estatísticas: 
+```bash
+Oferece relatórios e estatísticas sobre o desempenho e o progresso dos acolhidos, 
+permitindo uma análise detalhada sobre o impacto das ações da instituição.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias utilizadas:
+```bash
+- React: Para a criação da interface do usuário interativa e responsiva.
+- Node.js e Express: Para o desenvolvimento do servidor e criação de APIs RESTful.
+- MongoDB: Como banco de dados para armazenar as informações dos acolhidos, atividades e recursos.
+- Firebase Authentication: Para a gestão de autenticação dos funcionários e voluntários da instituição.
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
